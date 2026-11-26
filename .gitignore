@@ -1,0 +1,42 @@
+# ---------- Qt 构建产物 ----------
+build/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.so
+*.lib
+.qmake.stash
+
+# ---------- Qt Creator / IDE 个人配置 ----------
+*.pro.user
+*.pro.user.*
+*.qmlproject.user
+CMakeLists.txt.user*
+.qtc_clangd/
+.qtcreator/
+.vscode/
+.idea/
+
+# ---------- qmake / uic 自动生成 ----------
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+Makefile
+Makefile.*
+*.Debug
+*.Release
+
+# ---------- 用户上传的私人文件（保留目录结构） ----------
+disk_file/*
+!disk_file/**/
+!disk_file/**/.gitkeep
+!disk_file/.gitkeep
+
+# ---------- 系统文件 ----------
+Thumbs.db
+desktop.ini
+.DS_Store
